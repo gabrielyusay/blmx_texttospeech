@@ -81,7 +81,7 @@
 					</h1>
 					<form class="form-inline" role="form">
 					  <div class="form-group">
-							<form role="form" action="home" method="post" enctype="plain">
+							<form role="form" action="home" method="POST" enctype="plain">
 		      					<textarea name="text" rows="3" cols="80">
 			      					<c:if test="${!empty text}">${text}</c:if>
 		      					</textarea>
