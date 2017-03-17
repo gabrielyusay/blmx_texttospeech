@@ -79,7 +79,7 @@
 				<div class="col-lg-6">
 					<h1>Text to Speech<br/>
 					</h1>
-					<form class="form-inline" role="form">
+					<!--<form class="form-inline" role="form">-->
 					  <div class="form-group">
 							<form role="form" action="home" method="POST" enctype="plain">
 		      					<textarea name="text" rows="3" cols="80">
