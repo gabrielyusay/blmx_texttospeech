@@ -87,7 +87,17 @@
 		      					</textarea>
 					  </div>
 					  <button type="submit" class="btn btn-warning btn-lg">Convert</button>
-					</form>					
+					</form>			
+					<h1>Speech to Text</h1>	 
+	<form method="POST" action="home" enctype="multipart/form-data">
+		<input type="file" name="file" accept=".wav">
+		<button type="submit" class="btn btn-warning btn-lg">Convert</button>
+	</form>
+	
+	<c:if test="${!empty transcription}">
+		<h3>Transcript: </h3>
+		<p class="result">${transcription}</p>
+	</c:if>	
 				</div><!-- /col-lg-6 -->
 				<div class="col-lg-6">
 					<img class="img-responsive" src="assets/img/ipad-hand.png" alt="">
